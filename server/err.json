@@ -1,0 +1,1173 @@
+{
+  "defaultClient": {},
+  "clients": {
+    "graphqlServerClient": {
+      "$ROOT_QUERY.pcConfig": {
+        "did": "web_03b44ef276c94c8a955a8dbdb22b5755",
+        "config": {
+          "type": "json",
+          "json": {
+            "pcLive.webConfig.needLoginToWatchHD": 1,
+            "pcLive.webConfig.needShieldWatchingCount": 1,
+            "pcLive.webConfig.showRegister": 1,
+            "pcLive.campaignEntrance.topSidebar": [],
+            "pcLive.campaignEntrance.sidebar": [],
+            "pcLive.campaignEntrance.loginPage": {
+              "superImageUrl": "https:\u002F\u002Fstatic.yximgs.com\u002Fudata\u002Fpkg\u002Fkuaishou-front-end-live\u002Floginreward_login_banner.png",
+              "smallImageUrl": "https:\u002F\u002Fstatic.yximgs.com\u002Fudata\u002Fpkg\u002Fkuaishou-front-end-live\u002Floginreward_login_banner.png",
+              "link": "\u002Floginreward"
+            },
+            "pcLive.campaignEntrance.sharePage": {
+              "superImageUrl": "https:\u002F\u002Fstatic.yximgs.com\u002Fudata\u002Fpkg\u002Fkuaishou-front-end-live\u002Floginreward_shortvideo_player_pendant.gif",
+              "smallImageUrl": "https:\u002F\u002Fstatic.yximgs.com\u002Fudata\u002Fpkg\u002Fkuaishou-front-end-live\u002Floginreward_shortvideo_player_pendant.gif",
+              "link": "\u002Floginreward"
+            },
+            "pcLive.webConfig.liveWebAdaptiveConfig": {
+              "consistent_bitrate_threshold": 2,
+              "lower_buffered_time": 2000,
+              "upper_buffered_time": 3500,
+              "timeout_minutes": 10,
+              "buffer_up_ahead": 3,
+              "buffer_down_ahead": 5,
+              "start_up_duration": 3,
+              "speed_heartbeat_limit": 9
+            },
+            "pcLive.webConfig.liveGiftShowInBarrage": [
+              94
+            ],
+            "pcLive.webConfig.showBet": 0,
+            "pcLive.webConfig.hideFullScreenGiftList": [
+              "lol1314666"
+            ],
+            "pcLive.webConfig.useGrayTheme": {
+              "useGray": false
+            },
+            "enableWebQosLog": false,
+            "enableDetailedWebQosLog": false
+          }
+        },
+        "abTest": {
+          "type": "json",
+          "json": {
+            "online_audience_disappear": true,
+            "test_0_show_guanzhong_visable": false
+          }
+        },
+        "__typename": "ConfigResult"
+      },
+      "ROOT_QUERY": {
+        "pcConfig": {
+          "type": "id",
+          "generated": true,
+          "id": "$ROOT_QUERY.pcConfig",
+          "typename": "ConfigResult"
+        },
+        "publicFeeds({\"count\":24,\"pcursor\":\"\",\"principalId\":\"UFO99677\"})": {
+          "type": "id",
+          "generated": true,
+          "id": "$ROOT_QUERY.publicFeeds({\"count\":24,\"pcursor\":\"\",\"principalId\":\"UFO99677\"})",
+          "typename": "PCProfileFeeds"
+        },
+        "userInfo({\"principalId\":\"UFO99677\"})": {
+          "type": "id",
+          "generated": false,
+          "id": "User:UFO99677",
+          "typename": "User"
+        },
+        "categoryList({\"categoryCardList\":true,\"type\":\"panel\"})": [
+          {
+            "type": "id",
+            "generated": true,
+            "id": "ROOT_QUERY.categoryList({\"categoryCardList\":true,\"type\":\"panel\"}).0",
+            "typename": "Category"
+          },
+          {
+            "type": "id",
+            "generated": true,
+            "id": "ROOT_QUERY.categoryList({\"categoryCardList\":true,\"type\":\"panel\"}).1",
+            "typename": "Category"
+          },
+          {
+            "type": "id",
+            "generated": true,
+            "id": "ROOT_QUERY.categoryList({\"categoryCardList\":true,\"type\":\"panel\"}).2",
+            "typename": "Category"
+          },
+          {
+            "type": "id",
+            "generated": true,
+            "id": "ROOT_QUERY.categoryList({\"categoryCardList\":true,\"type\":\"panel\"}).3",
+            "typename": "Category"
+          }
+        ]
+      },
+      "$ROOT_QUERY.publicFeeds({\"count\":24,\"pcursor\":\"\",\"principalId\":\"UFO99677\"})": {
+        "pcursor": null,
+        "live": null,
+        "list": [],
+        "__typename": "PCProfileFeeds"
+      },
+      "User:UFO99677": {
+        "id": "UFO99677",
+        "principalId": "UFO99677",
+        "eid": "3x5fprehv4mrwje",
+        "avatar": "https:\u002F\u002Ftx2.a.yximgs.com\u002Fuhead\u002FAB\u002F2021\u002F02\u002F07\u002F19\u002FBMjAyMTAyMDcxOTI0MTRfMjI1NzQ1NjkwN18yX2hkNjFfNTE5_s.jpg",
+        "name": "和平精英·舒淇",
+        "description": "( •︠ˍ•︡ )",
+        "sex": "F",
+        "living": false,
+        "watchingCount": null,
+        "orgName": null,
+        "isNew": false,
+        "privacy": false,
+        "feeds": null,
+        "verifiedStatus": {
+          "type": "id",
+          "generated": true,
+          "id": "$User:UFO99677.verifiedStatus",
+          "typename": "VerifiedStatus"
+        },
+        "bannedStatus": {
+          "type": "id",
+          "generated": true,
+          "id": "$User:UFO99677.bannedStatus",
+          "typename": "BannedStatus"
+        },
+        "__typename": "User"
+      },
+      "$User:UFO99677.verifiedStatus": {
+        "verified": false,
+        "description": "",
+        "type": 0,
+        "new": false,
+        "__typename": "VerifiedStatus"
+      },
+      "$User:UFO99677.bannedStatus": {
+        "banned": false,
+        "defriend": false,
+        "isolate": false,
+        "socialBanned": false,
+        "__typename": "BannedStatus"
+      },
+      "ROOT_QUERY.categoryList({\"categoryCardList\":true,\"type\":\"panel\"}).0": {
+        "categoryId": "DQRM",
+        "categoryAbbr": "DQRM",
+        "name": "当前热门",
+        "category": null,
+        "title": null,
+        "src": null,
+        "shortName": "热门",
+        "gameDescription": null,
+        "subList": {
+          "type": "json",
+          "json": [
+            {
+              "categoryId": "1001",
+              "name": "王者荣耀",
+              "parentId": "DQRM"
+            },
+            {
+              "categoryId": "1",
+              "name": "英雄联盟",
+              "parentId": "DQRM"
+            },
+            {
+              "categoryId": "22130",
+              "name": "使命召唤手游",
+              "parentId": "DQRM"
+            }
+          ]
+        },
+        "__typename": "Category"
+      },
+      "ROOT_QUERY.categoryList({\"categoryCardList\":true,\"type\":\"panel\"}).1": {
+        "categoryId": "SYXX",
+        "categoryAbbr": "SYXX",
+        "name": "手游休闲",
+        "category": null,
+        "title": null,
+        "src": null,
+        "shortName": "手游",
+        "gameDescription": null,
+        "subList": {
+          "type": "json",
+          "json": [
+            {
+              "categoryId": "1001",
+              "name": "王者荣耀",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22008",
+              "name": "和平精英",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22185",
+              "name": "天天象棋",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1011",
+              "name": "火影忍者",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22130",
+              "name": "使命召唤手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1054",
+              "name": "QQ飞车手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1009",
+              "name": "我的世界",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1037",
+              "name": "中国象棋",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "10",
+              "name": "象棋",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1051",
+              "name": "迷你世界",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1006",
+              "name": "CF手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22280",
+              "name": "就要斗地主",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1002",
+              "name": "球球大作战",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1017",
+              "name": "欢乐斗地主",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22069",
+              "name": "明日之后",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22196",
+              "name": "英雄联盟手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22018",
+              "name": "第五人格",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22070",
+              "name": "爱游斗地主",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22014",
+              "name": "问道手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22160",
+              "name": "王牌战争：文明重启",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22313",
+              "name": "嘻嘻红中麻将",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22181",
+              "name": "原神",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1026",
+              "name": "欢乐麻将",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1018",
+              "name": "JJ斗地主",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22311",
+              "name": "多乐够级",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22094",
+              "name": "传奇世界",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22120",
+              "name": "王者模拟战",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22178",
+              "name": "妄想山海",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "11",
+              "name": "军棋",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22061",
+              "name": "创造与魔法",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1041",
+              "name": "劲舞团",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22024",
+              "name": "香肠派对",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1049",
+              "name": "荒野行动",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22063",
+              "name": "部落冲突",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "6",
+              "name": "斗地主",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22207",
+              "name": "逃跑吧！少年",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "9",
+              "name": "麻将",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22236",
+              "name": "最强nba",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22029",
+              "name": "NBA手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22339",
+              "name": "微乐够级",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22235",
+              "name": "生死狙击",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22062",
+              "name": "梦幻西游手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22205",
+              "name": "机动都市阿尔法",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22156",
+              "name": "三国战纪",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22227",
+              "name": "本周新游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22087",
+              "name": "跑跑卡丁车手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22173",
+              "name": "狼人杀",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1003",
+              "name": "贪吃蛇大作战",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22224",
+              "name": "少年三国志：零",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22165",
+              "name": "三国志威力无双",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22161",
+              "name": "一起来飞车",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1005",
+              "name": "天天酷跑",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1012",
+              "name": "开心消消乐",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22290",
+              "name": "重生细胞",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22200",
+              "name": "光遇",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22150",
+              "name": "DNF手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22226",
+              "name": "综合手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22077",
+              "name": "海岛奇兵",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22108",
+              "name": "猫和老鼠",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22074",
+              "name": "暗黑破坏神：不朽",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22203",
+              "name": "忍者必须死3",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22092",
+              "name": "大话西游手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22329",
+              "name": "合成大西瓜",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22135",
+              "name": "荒野乱斗",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1020",
+              "name": "地铁跑酷",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1040",
+              "name": "航海王",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22023",
+              "name": "FIFA足球世界",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22007",
+              "name": "全军出击",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22304",
+              "name": "奶块",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "20",
+              "name": "三国杀",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22176",
+              "name": "天涯明月刀手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22315",
+              "name": "超凡先锋",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22100",
+              "name": "英魂之刃口袋版",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22030",
+              "name": "元气骑士",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22101",
+              "name": "我的起源",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1036",
+              "name": "时空召唤",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22222",
+              "name": "英雄杀",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22148",
+              "name": "龙之谷2",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1023",
+              "name": "狼人杀官方",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1055",
+              "name": "快手电丸",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1039",
+              "name": "天龙八部",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22040",
+              "name": "自由幻想",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22206",
+              "name": "太空杀",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1004",
+              "name": "皇室战争",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22356",
+              "name": "百鬼幼儿园",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22243",
+              "name": "罗布乐思",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22266",
+              "name": "提灯与地下城",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22031",
+              "name": "崩坏3rd",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22250",
+              "name": "坦克世界闪击战",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1022",
+              "name": "汤姆猫跑酷",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1029",
+              "name": "钢琴块2",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22143",
+              "name": "风暴魔域2",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22164",
+              "name": "诛仙手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22300",
+              "name": "征途",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22180",
+              "name": "全民枪战2",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22204",
+              "name": "万国觉醒",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22238",
+              "name": "天谕手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22371",
+              "name": "天地劫：幽城再临",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1007",
+              "name": "阴阳师",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22126",
+              "name": "梦幻西游三维版",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22231",
+              "name": "影之刃3",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22258",
+              "name": "腾讯桌球",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22275",
+              "name": "龙珠最强之战",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1046",
+              "name": "全民突击",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1013",
+              "name": "宾果消消乐",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22066",
+              "name": "实况足球",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22154",
+              "name": "猎手之王",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22201",
+              "name": "率土之滨",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22248",
+              "name": "倩女幽魂手游",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22274",
+              "name": "狂野飙车9",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22057",
+              "name": "火战攻城",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22097",
+              "name": "战歌竞技场",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22162",
+              "name": "巅峰战舰",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1014",
+              "name": "天天爱消除",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1034",
+              "name": "浪漫星舞团",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1027",
+              "name": "魂斗罗：归来",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22149",
+              "name": "神武4",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22177",
+              "name": "黎明觉醒",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22202",
+              "name": "明日方舟",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22322",
+              "name": "龙珠觉醒",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22355",
+              "name": "玩吧",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22369",
+              "name": "一梦江湖",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22152",
+              "name": "神魔大陆",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22343",
+              "name": "量子特工",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22105",
+              "name": "王牌战士",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "22155",
+              "name": "曙光英雄",
+              "parentId": "SYXX"
+            },
+            {
+              "categoryId": "1035",
+              "name": "怪兽大作战",
+              "parentId": "SYXX"
+            }
+          ]
+        },
+        "__typename": "Category"
+      },
+      "ROOT_QUERY.categoryList({\"categoryCardList\":true,\"type\":\"panel\"}).2": {
+        "categoryId": "WYJJ",
+        "categoryAbbr": "WYJJ",
+        "name": "网游竞技",
+        "category": null,
+        "title": null,
+        "src": null,
+        "shortName": "网游",
+        "gameDescription": null,
+        "subList": {
+          "type": "json",
+          "json": [
+            {
+              "categoryId": "2",
+              "name": "穿越火线",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "21",
+              "name": "绝地求生",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22103",
+              "name": "lol云顶之弈",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "1",
+              "name": "英雄联盟",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22",
+              "name": "梦幻西游",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "3",
+              "name": "DNF",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "32",
+              "name": "大话西游2",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "4",
+              "name": "QQ飞车",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22106",
+              "name": "逆战",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22098",
+              "name": "神途",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22033",
+              "name": "逆水寒",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22269",
+              "name": "星际战甲",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "25",
+              "name": "CS:GO",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "23",
+              "name": "坦克世界",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "29",
+              "name": "梦三国2",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22050",
+              "name": "问道",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "30",
+              "name": "反恐精英",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "19",
+              "name": "魔兽争霸",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "18",
+              "name": "魔兽世界",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "33",
+              "name": "冒险岛",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22079",
+              "name": "跑跑卡丁车",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22083",
+              "name": "星际争霸2",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22080",
+              "name": "新天龙八部",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22076",
+              "name": "QQ炫舞",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "13",
+              "name": "守望先锋",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22288",
+              "name": "诛仙2",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "14",
+              "name": "炉石传说",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22085",
+              "name": "APEX英雄",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22251",
+              "name": "剑灵",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22144",
+              "name": "征服",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "12",
+              "name": "DOTA2",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22284",
+              "name": "帝国时代",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22286",
+              "name": "极品飞车OL",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22127",
+              "name": "游戏宝贝",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "27",
+              "name": "龙之谷",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "24",
+              "name": "暗黑破坏神3",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "31",
+              "name": "QQ三国",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "34",
+              "name": "彩虹岛",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22089",
+              "name": "天下3",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22287",
+              "name": "永恒之塔",
+              "parentId": "WYJJ"
+            },
+            {
+              "categoryId": "22289",
+              "name": "最终幻想14",
+              "parentId": "WYJJ"
+            }
+          ]
+        },
+        "__typename": "Category"
+      },
+      "ROOT_QUERY.categoryList({\"categoryCardList\":true,\"type\":\"panel\"}).3": {
+        "categoryId": "DJRY",
+        "categoryAbbr": "DJRY",
+        "name": "单机热游",
+        "category": null,
+        "title": null,
+        "src": null,
+        "shortName": "单机",
+        "gameDescription": null,
+        "subList": {
+          "type": "json",
+          "json": [
+            {
+              "categoryId": "100017",
+              "name": "怀旧游戏",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22088",
+              "name": "经典单机",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22013",
+              "name": "方舟",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22111",
+              "name": "模拟人生",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22045",
+              "name": "NBA2KOL2",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22039",
+              "name": "饥荒",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22038",
+              "name": "灵魂筹码",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22352",
+              "name": "鬼谷八荒",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22133",
+              "name": "骑马与砍杀系列",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22138",
+              "name": "逃离塔科夫",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22093",
+              "name": "只狼",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22195",
+              "name": "Among Us",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22353",
+              "name": "橙光",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22067",
+              "name": "荒野大镖客2",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22078",
+              "name": "战地系列",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22054",
+              "name": "古墓丽影暗影",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22163",
+              "name": "糖豆人",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22351",
+              "name": "英灵神殿",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22020",
+              "name": "战神",
+              "parentId": "DJRY"
+            },
+            {
+              "categoryId": "22220",
+              "name": "赛博朋克",
+              "parentId": "DJRY"
+            }
+          ]
+        },
+        "__typename": "Category"
+      }
+    }
+  }
+}
